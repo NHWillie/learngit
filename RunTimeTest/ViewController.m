@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import <objc/message.h>
+#import "Person.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [UIImage imageNamed:@"1111"];
+
+    
 }
+
 
 
 - (void)didReceiveMemoryWarning {

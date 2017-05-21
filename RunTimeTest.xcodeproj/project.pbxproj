@@ -13,6 +13,9 @@
 		4A09B5A41ECD369600EFB11B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A09B5A21ECD369600EFB11B /* Main.storyboard */; };
 		4A09B5A61ECD369600EFB11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A09B5A51ECD369600EFB11B /* Assets.xcassets */; };
 		4A09B5A91ECD369600EFB11B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A09B5A71ECD369600EFB11B /* LaunchScreen.storyboard */; };
+		4A09B5B21ECD385800EFB11B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09B5B11ECD385800EFB11B /* Person.m */; };
+		4A09B5B51ECD46A800EFB11B /* UIImageView+wllieImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09B5B41ECD46A800EFB11B /* UIImageView+wllieImage.m */; };
+		4A09B5B81ECD47E700EFB11B /* UIImage+willie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09B5B71ECD47E700EFB11B /* UIImage+willie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		4A09B5A51ECD369600EFB11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A09B5A81ECD369600EFB11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A09B5AA1ECD369600EFB11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A09B5B01ECD385800EFB11B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4A09B5B11ECD385800EFB11B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		4A09B5B31ECD46A800EFB11B /* UIImageView+wllieImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+wllieImage.h"; sourceTree = "<group>"; };
+		4A09B5B41ECD46A800EFB11B /* UIImageView+wllieImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+wllieImage.m"; sourceTree = "<group>"; };
+		4A09B5B61ECD47E700EFB11B /* UIImage+willie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+willie.h"; sourceTree = "<group>"; };
+		4A09B5B71ECD47E700EFB11B /* UIImage+willie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+willie.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				4A09B59D1ECD369600EFB11B /* AppDelegate.m */,
 				4A09B59F1ECD369600EFB11B /* ViewController.h */,
 				4A09B5A01ECD369600EFB11B /* ViewController.m */,
+				4A09B5B01ECD385800EFB11B /* Person.h */,
+				4A09B5B11ECD385800EFB11B /* Person.m */,
+				4A09B5B31ECD46A800EFB11B /* UIImageView+wllieImage.h */,
+				4A09B5B41ECD46A800EFB11B /* UIImageView+wllieImage.m */,
+				4A09B5B61ECD47E700EFB11B /* UIImage+willie.h */,
+				4A09B5B71ECD47E700EFB11B /* UIImage+willie.m */,
 				4A09B5A21ECD369600EFB11B /* Main.storyboard */,
 				4A09B5A51ECD369600EFB11B /* Assets.xcassets */,
 				4A09B5A71ECD369600EFB11B /* LaunchScreen.storyboard */,
@@ -110,6 +125,7 @@
 				TargetAttributes = {
 					4A09B5951ECD369600EFB11B = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7KVZF66EFZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,7 +168,10 @@
 			files = (
 				4A09B5A11ECD369600EFB11B /* ViewController.m in Sources */,
 				4A09B59E1ECD369600EFB11B /* AppDelegate.m in Sources */,
+				4A09B5B21ECD385800EFB11B /* Person.m in Sources */,
 				4A09B59B1ECD369600EFB11B /* main.m in Sources */,
+				4A09B5B51ECD46A800EFB11B /* UIImageView+wllieImage.m in Sources */,
+				4A09B5B81ECD47E700EFB11B /* UIImage+willie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +291,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7KVZF66EFZ;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RunTimeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Willie.RunTimeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,7 +306,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7KVZF66EFZ;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RunTimeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Willie.RunTimeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
